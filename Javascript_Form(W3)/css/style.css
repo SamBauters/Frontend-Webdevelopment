@@ -1,0 +1,38 @@
+* {
+  display: block; }
+
+input, button {
+  margin-bottom: 5px; }
+
+body {
+  padding: 10px; }
+
+.gegevens {
+  position: fixed;
+  width: 20%;
+  float: left;
+  border-right: 1px solid; }
+
+.uitvoer {
+  float: left;
+  width: 80%;
+  margin-left: 20%; }
+
+figure {
+  display: inline-block;
+  float: left; }
+
+img {
+  float: left;
+  margin: 10px; }
+
+figcaption {
+  text-align: center; }
+
+.jonger {
+  border: 3px solid red; }
+
+.ouder {
+  border: 3px solid green; }
+
+/*# sourceMappingURL=style.css.map */
