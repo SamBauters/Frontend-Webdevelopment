@@ -2,32 +2,36 @@
   display: block; }
 
 input, button {
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  width: 100%; }
 
 body {
-  padding: 10px; }
+  height: 100%; }
 
-.gegevens {
+aside {
   position: fixed;
-  width: 20%;
+  width: 15%;
+  height: 100%;
+  padding: 10px;
   float: left;
   border-right: 1px solid; }
+  aside form button {
+    float: right;
+    width: auto; }
 
 .uitvoer {
   float: left;
-  width: 80%;
-  margin-left: 20%; }
+  margin-left: 17%; }
 
-figure {
-  display: inline-block;
-  float: left; }
-
-img {
-  float: left;
-  margin: 10px; }
-
-figcaption {
-  text-align: center; }
+article {
+  margin-left: 10%; }
+  article figure {
+    float: left; }
+    article figure img {
+      float: left;
+      margin: 10px; }
+    article figure figcaption {
+      text-align: center; }
 
 .jonger {
   border: 3px solid red; }
